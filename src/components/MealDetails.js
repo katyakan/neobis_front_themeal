@@ -61,11 +61,16 @@ const MealDetails = () => {
           <div>{strTags}</div>
 
           <ul>
-            {ingredientsArray.map((ingredient, index) => (
-              <li key={index}>
-                <p>{ingredient}</p>
-              </li>
-            ))}
+            {ingredientsArray.map((ingredient, index) => {
+              const [name, value] = ingredient.split(' - ');
+              return (
+                <li key={index}>
+                  <p>
+                    {name} <span style={{ fontWeight: 'bold' }}>{value}</span>
+                  </p>
+                </li>
+              );
+            })}
           </ul>
         </div>
 
