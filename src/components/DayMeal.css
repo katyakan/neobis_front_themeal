@@ -1,0 +1,38 @@
+.header {
+  height: 90px;
+  background-color: #d49726;
+ padding: 30px 0 ;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.day_meal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+ 
+}
+
+.day_meal img {
+  border-radius: 20px;
+ 
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+h3{
+color: #d49726;
+font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 58px;
+    margin-bottom: 2rem;
+}

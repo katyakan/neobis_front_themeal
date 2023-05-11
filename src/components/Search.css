@@ -1,0 +1,88 @@
+p {
+  margin-top: 10px;
+}
+.search {
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+input {
+  background-color: #dcdcdc;
+  border: 0;
+  border-radius: 3px;
+  font-family: Raleway;
+  height: 40px;
+  outline: none;
+  padding: 6px 12px;
+  transition: all 0.15s;
+  width: 280px;
+}
+
+button {
+  background: #d49726;
+  border: 0;
+  border-radius: 0 3px 3px 0;
+  color: #fff;
+  cursor: pointer;
+  height: 40px;
+  font-weight: 700;
+  width: 100px;
+}
+
+ul {
+  margin-top: 10px;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+
+}
+.result_image {
+  margin-top: 50px;
+  border-radius: 20px;
+
+margin-left: 50px;
+float: left;
+
+}
+
+.meal_name {
+  text-decoration: none !important;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  align-items: center;
+  margin-left: 50px;
+  
+
+}
+
+.resultsearch {
+  margin-top: 100px;
+  width: 100%;
+}
+li {
+  width: auto;
+  align-items: center;
+  text-align: center;
+  padding: auto;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}

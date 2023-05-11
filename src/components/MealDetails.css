@@ -1,0 +1,51 @@
+h2 {
+  color: #d49726;
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 58px;
+  margin-bottom: 2rem;
+}
+
+.imgdetails {
+
+ border-radius: 15px;
+}
+.details_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.details_button {
+  background-color: red;
+  color: white;
+  align-items: center;
+    background-color: red;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    font-family: Raleway;
+    font-weight: 700;
+    height: 45px;
+    justify-content: center;
+    margin: 60px 0;
+    width: 200px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.instructions {
+ margin-left: 50px;
+ margin-right: 50px ;
+}
+h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+ul li{
+  text-align: left;
+  margin-left: -30px;
+}
+
