@@ -10,6 +10,7 @@ h2 {
 .imgdetails {
 
  border-radius: 15px;
+ height: 30rem;
 }
 .details_container {
   display: flex;
