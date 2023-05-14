@@ -1,15 +1,14 @@
 h2 {
   color: #d49726;
-  font-size: 44px;
+  font-size: 4.4rem;
   font-weight: 700;
-  letter-spacing: 1.5px;
-  line-height: 58px;
+  letter-spacing: 16rem58px;
   margin-bottom: 2rem;
 }
 
 .imgdetails {
 
- border-radius: 15px;
+ border-radius: 1.5rem;
  height: 30rem;
 }
 .details_container {
@@ -27,23 +26,23 @@ h2 {
     display: flex;
     font-family: Raleway;
     font-weight: 700;
-    height: 45px;
+    height: 4.5rem;
     justify-content: center;
-    margin: 60px 0;
-    width: 200px;
+    margin: 6rem 0;
+    width: 20rem;
     text-decoration: none;
-    margin-left: 50px;
+    margin-left: 5rem
 }
 .instructions {
- margin-left: 50px;
- margin-right: 50px ;
+ margin-left: 5rem;
+ margin-right: 5rem ;
 }
 h4 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 ul li{
   text-align: left;

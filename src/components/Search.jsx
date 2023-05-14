@@ -17,18 +17,20 @@ const Search = () => {
       console.error(error);
     }
   };
-
+ 
   return (
     <div className="search">
       <div>
         <h2>Find Your Meal</h2>
-        <input
-          type="text"
-          value={searchTerm}
-          placeholder="Find your meal"
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-        <button onClick={handleSearch}>Search</button>
+        <form onSubmit={handleSearch}>
+          <input
+            type="text"
+            value={searchTerm}
+            placeholder="Find your meal"
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <button onClick={handleSearch}>Search</button>
+        </form>
       </div>
       <div className="resultsearch">
         <ul>

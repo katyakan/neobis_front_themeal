@@ -18,7 +18,8 @@
 
 .day_meal img {
   border-radius: 20px;
-  height: 30rem;
+ height: 500px;
+ width: auto;
  
 }
 
@@ -26,7 +27,7 @@ h2 {
   margin-bottom: 20px;
   font-size: 30px;
   margin-bottom: 20px;
-  margin-top: 10px;
+
   text-align: center;
 }
 h3{

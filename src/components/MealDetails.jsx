@@ -23,7 +23,7 @@ const MealDetails = () => {
   }, [id]);
 
   if (!meal) {
-    return <div>Loading...</div>;
+    return <div>Loading... </div>
   }
 
   const {
