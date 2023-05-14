@@ -29,7 +29,7 @@ const DayMeal = () => {
       <div className="day_meal">
         <div>
           <h2>Meal of the Day</h2>
-          <h3>{meal.strMeal}</h3>
+          <h4>{meal.strMeal}</h4>
         </div>
 
         <img src={meal.strMealThumb} alt={meal.strMeal} />

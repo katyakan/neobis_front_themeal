@@ -17,12 +17,15 @@ const Search = () => {
       console.error(error);
     }
   };
- 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log('search on "enter" key');
+  };
   return (
     <div className="search">
       <div>
-        <h2>Find Your Meal</h2>
-        <form onSubmit={handleSearch}>
+        <h3>Find Your Meal</h3>
+        <form onSubmit={handleSubmit}>
           <input
             type="text"
             value={searchTerm}
