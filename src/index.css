@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
 .App {
   text-align: center;
   max-width: 600px;
@@ -17,5 +19,8 @@ h1 {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'montserrat', sans-serif;
+	font-family: 'cardo', serif;
+}
+span {
+  font-weight: 700;
 }

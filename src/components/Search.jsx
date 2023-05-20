@@ -46,8 +46,13 @@ const Search = () => {
                     src={result.strMealThumb}
                     alt={result.strMeal}
                   />
-
-                  <p className="meal_name">{result.strMeal}</p>
+                  <p className="meal_name">
+                    {result.strMeal}
+                    <br></br>
+                    <span className="tags">
+                      {result.strCategory} | {result.strArea}
+                    </span>
+                  </p>
                 </div>
               </Link>
             </li>

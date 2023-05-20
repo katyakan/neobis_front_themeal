@@ -9,7 +9,15 @@ h2 {
 .imgdetails {
 
  border-radius: 1.5rem;
- height: 30rem;
+
+ width: 25rem;
+ height: 25rem;
+
+}
+.imgdetails img {
+
+  max-width: 20rem;
+  overflow: hidden;
 }
 .details_container {
   display: flex;

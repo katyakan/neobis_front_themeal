@@ -6,13 +6,13 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
 function App() {
-  //const mealId = '52772';
+
 
   return (
     <>
       <div>
         <Routes>
-          <Route path="/" element={<DayMeal />}></Route>
+          <Route path="/" element={<DayMeal />}></Route>{' '}
         </Routes>
       </div>
       <div>

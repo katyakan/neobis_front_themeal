@@ -87,3 +87,8 @@ a {
   text-align: center;
 
 }
+
+.tags {
+  font-size: 1rem;
+  text-decoration: none;
+}
