@@ -23,7 +23,7 @@ const MealDetails = () => {
   }, [id]);
 
   if (!meal) {
-    return <div>Loading... </div>
+    return <div>Loading...</div>;
   }
 
   const {
@@ -56,9 +56,13 @@ const MealDetails = () => {
           <h2 className="heading">{strMeal}</h2>
 
           <div>
-            {strCategory} | {strArea}
+            <p>
+              {strCategory} | {strArea}
+            </p>
           </div>
-          <div>{strTags}</div>
+          <div>
+            <p>{strTags}</p>
+          </div>
 
           <ul>
             {ingredientsArray.map((ingredient, index) => {
@@ -80,7 +84,7 @@ const MealDetails = () => {
       <div className="instructions">
         {' '}
         <h4>Instructions:</h4>
-        {strInstructions}
+        <p>{strInstructions}</p>
       </div>
       {strYoutube && (
         <div>
